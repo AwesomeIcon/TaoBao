@@ -1,0 +1,2046 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>淘宝</title>
+	<link href="images/title.ico" type="image/x-icon" rel="shortcut icon" />
+	<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+	<div id="topbar">
+	<div id="innertopbar">
+		<a href="#" id="topbar-a1">亲，请登录</a>
+		<a href="#">免费注册</a>
+		<a href="#" id="topbar-a3">手机逛淘宝</a>
+		<a href="#" id="topbar-a4">我的淘宝</a>
+		<a href="#">购物车</a>
+		<a href="#">收藏夹</a>
+		<a href="#" id="topbar-a7">商品分类</a>
+		<div class="plug"></div>
+		<a href="#">卖家中心</a>
+		<a href="#">联系客服</a>
+		<a href="#">网站导航</a>
+	</div>
+	</div>
+	<img src="images/618.jpg" style="width:100%;">
+	<div id="searchbar">
+		<img src="images/logo.gif" id="logo">
+		<form>
+		<div id="topfont">
+		<a href="#" id="baobei" onclick="baobei1()">宝贝</a>
+		<a href="#" id="tianmao" onclick="tianmao1()">天猫</a>
+		<a href="#" id="dianpu" onclick="dianpu1()">店铺</a>
+		</div>
+		<div id="sousuolan">
+		<img src="images/sousuo.png">
+		<input  id="searchtext" type="text" value="一大波灭蚊神器向你袭来！" onfocus="qingchu(this)">
+		<input  id="button" type="button" value="搜索">
+		</div>
+		<div id="ho">
+			<a href="#">衬衫</a>
+			<a href="#">t恤</a>
+			<a href="#">蚊帐</a>
+			<a href="#">新款凉鞋</a>
+			<a href="#">大码女装</a>
+			<a href="#">童装</a>
+			<a href="#">流行女包</a>
+			<a href="#">新款男鞋</a>
+			<a href="#">女鞋</a>
+			<a href="#">打底裤</a>
+			<a href="#">妈妈装</a>
+			<a href="#">打底衫</a>
+			<input type="button" value="更多" class="more" onmouseover="changeit(this)" onmouseout="recoverit(this)">
+		</div>
+		</form>
+		<img src="images/erweima.png" id="erweima">
+	</div>
+	<div id="first">
+		<div id="firl">
+			<h2>淘宝特色服务</h2>
+			<div class="biaoti">
+			<img src="images/shichang.png">
+			<p>主题市场</p>
+			<input type="button" value="更多" class="more" onmouseover="changeit(this)" onmouseout="recoverit(this)">
+			</div>
+			<div class="neirong1-1">
+			<ul>
+				<li><a href="#">淘宝女人</a></li>
+				<li><a href="#">运动派</a></li>
+				<li><a href="#">特卖</a></li>
+			</ul>
+			<ul>
+				<li><a href="#">淘宝男人</a></li>
+				<li><a href="#">儿童节</a></li>
+				<li><a href="#">家居</a></li>
+			</ul>
+			<li><a href="#">美容护肤</a></li>
+			<li><a href="#">中老年</a></li>
+			<li><a href="#">美食</a></li>
+			<li><a href="#">海外直邮</a></li>
+			<li><a href="#">有车族</a></li>
+			<li><a href="#">装修</a></li>
+			<li><a href="#">手机数码</a></li>
+			<li><a href="#">生活家</a></li>
+			<li><a href="#">游戏 </a></li>
+			</div>
+			<div class="biaoti">
+			<img src="images/gouwu.png">
+			<p>特色购物</p></div>
+			<div class="neirong1-2">
+				<li><a href="#">淘宝二手</a></li>
+				<li><a href="#">拍卖会</a></li>
+				<li><a href="#">爱逛街</a></li>
+				<li><a href="#">淘宝奇葩</a></li>
+				<li><a href="#">全球购</a></li>
+				<li><a href="#">挑食</a></li>
+				<li><a href="#">淘宝教育</a></li>
+				<li><a href="#">淘女郎</a></li>
+				<li><a href="#">星店</a></li>
+				<li><a href="#">淘宝众筹</a></li>
+				<li><a href="#">B格</a></li>
+				<li><a href="#">动漫</a></li>
+				<li><a href="#">腔调</a></li>
+				<li><a href="#">生活服务</a></li>
+				<li><a href="#">淘宝达人</a></li>
+				<li><a href="#">逛搭配</a></li>
+			</div>
+			<div class="biaoti">
+			<img src="images/cuxiao.png">
+			<p>优惠促销</p></div>
+			<div class="neirong2">
+				<li><a href="#">天天特价</a></li>
+				<li><a href="#">免费试用</a></li>
+				<li><a href="#">清仓</a></li>
+				<li><a href="#">一元起拍</a></li>
+				<li><a href="#">淘金币</a></li>
+				<li><a href="#">夜抢购</a></li>
+			</div>
+			<div class="biaoti">
+			<img src="images/gongju.png">
+			<p>工具</p></div>
+			<div class="neirong3">
+				<li><a href="#">阿里旺旺</a></li>
+				<li><a href="#">支付宝</a></li>
+				<li><a href="#">来往</a></li>
+				<li><a href="#">UC</a></li>
+			</div>
+		</div>
+		<div id="firr">
+			<div id="firrtop">
+				<a href="#" class="firrqs">天猫</a>
+				<a href="#" class="firrqs">聚划算</a>
+				<a href="#" class="firrqs">超市</a>
+				<a href="#" class="firrs1">阿里旅游</a>
+				<a href="#" class="firrs">司法拍卖</a>
+				<a href="#" class="firrs">一淘</a>
+				<a href="#" class="firrs">电器城</a>
+				<a href="#" class="firrs">美妆闪购</a>
+				<a href="#" class="firrs">阿里小智</a>
+				<a href="#" class="firrs">特色中国</a>
+				<img src="images/topmenu.gif" class="topmenu">
+				<a href="#" class="firrz">消费者保障</a>
+			</div>
+			<div id="tu">
+				<img src="images/1.png" href="#">
+				<img src="images/2.png" href="#">
+				<img src="images/3.png" href="#">
+				<img src="images/4.png" href="#">
+			</div>
+			<div id="tuyou">
+				<div id="tuyoutop">
+					<div id="tuyoutop1">
+						<a href="#" class="current1">公告</a>
+						<a href="#">规则</a>
+						<a href="#">论坛</a>
+						<a href="#">安全</a>
+						<a href="#">公益</a>
+					</div>
+					<div id="tuyoutop2">
+						<a href="#" class="current3">47个淘宝冠钻商家被关</a>
+						<a href="#">阿里成最具价值零售品牌</a>
+						<a href="#">冒充阿里小二诈骗被捕</a>
+						<a href="#">菜鸟展翅宣布五大战略</a>
+					</div>
+					<div id="tuyoutop3">
+						<img src="images/ww.png" class="ww">
+						<a href="#" class="hi">Hi,你好！</a>
+						<div class="block1">
+							<img src="images/jinbi.png">
+							<a href="#">领金币抵钱</a>
+						</div>
+						<div class="block2">
+							<a href="#">会员俱乐部</a>
+						</div>
+					<div class="dakuangjia">
+						<div class="block3" name="block3" onmouseover="bianse(this)" onmouseout="tuise(this)">
+							<img src="images/denglu.png">
+							<a href="#">登陆</a>
+						</div>
+						<div class="block4" name="block4" onmouseover="bianse(this)" onmouseout="tuise(this)">
+							<a href="#">免费注册</a>
+						</div>
+						<div class="block4" name="block4_" onmouseover="bianse(this)" onmouseout="tuise(this)">
+							<a href="#">免费开店</a>
+						</div>
+					</div>
+					</div>
+					<div id="tuyoutop4">
+						<h3>便民服务</h3>
+						<div class="young">
+						<a href="#">
+							<img src="images/huafei.png">
+							<p>话费</p></a>
+						</div>
+						<div class="young">
+						<a href="#">
+							<img src="images/youxi.png">
+							<p>游戏</p></a>
+						</div>
+						<div class="young">
+						<a href="#">
+							<img src="images/lvxing.png">
+							<p>旅行</p></a>
+						</div>
+						<div class="young">
+						<a href="#">
+							<img src="images/baoxian.png">
+							<p>保险</p></a>
+						</div>
+						<div class="young">
+						<a href="#">
+							<img src="images/caipiao.png">
+							<p>彩票</p></a>
+						</div>
+						<div class="young">
+						<a href="#">
+							<img src="images/dianyingpiao.png">
+							<p>电影票</p></a>
+						</div>
+						<div class="young">
+						<a href="#">
+							<img src="images/dianwaimai.png">
+							<p>点外卖</p></a>
+						</div>
+						<div class="young">
+						<a href="#">
+							<img src="images/licai.png">
+							<p>理财</p></a>
+						</div>
+						<div class="young">
+						<a href="#">
+							<img src="images/zhaofuwu.png">
+							<p>找服务</p></a>
+						</div>
+						<div class="young">
+						<a href="#">
+							<img src="images/yinyue.png">
+							<p>音乐</p></a>
+						</div>
+						<div class="young">
+						<a href="#">
+							<img src="images/shuidianmei.png">
+							<p>水电煤</p></a>
+						</div>
+						<div class="young">
+						<a href="#">
+							<img src="images/huochepiao.png">
+							<p>火车票</p></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="second">
+	<div class="sec1">
+		<h4>当前热点</h4>
+		<img src="images/jiantou.png" class="jian">
+		<a href="#" class="seca">女装抢新</a>
+		<a href="#" class="seca">美甲包邮</a>
+		<a href="#" class="seca">辣妈萌宝</a>
+		<img src="images/n.gif" class="dong">
+		<a href="#" class="seca">哆啦A梦</a>
+		<img src="images/h.gif" class="dong">
+		<a href="#" class="seca">凉鞋上新</a>
+		<a href="#" class="seca">泰国人妖</a>
+	</div>
+	<div class="sec2">
+		<h4>精彩推荐</h4>
+		<img src="images/jiantou.png" class="jian">
+		<a href="#" class="seca">租房买房</a>
+		<a href="#" class="seca">闺蜜淘宝</a>
+		<a href="#" class="seca">天猫进口</a>
+		<a href="#" class="seca">母婴大促</a>
+		<a href="#" class="seca">余额宝</a>
+		<a href="#" class="seca">大牌捡宝</a>
+	</div>
+	<div class="sec3">
+		<h4>拍卖专区</h4>
+		<img src="images/jiantou.png" class="jian">
+		<a href="#" class="seca">奢品玉翠</a>
+		<a href="#" class="seca">艺术品</a>
+		<a href="#" class="seca">资产甩卖</a>
+		<a href="#" class="seca">拍车房</a>
+	</div>
+	<div class="sec4">
+		<a href="#">
+			<img src="images/yushi.png">
+		</a>
+	</div>
+	<div class="sai"></div>
+	<div class="sec5">
+		<a href="#">
+			<img src="images/changtu.png">
+		</a>
+	</div>
+	</div>
+	<div id="third">
+		<div class="thirdleft">
+			<div class="sidahezi">
+				<div class="hezi1">
+					<div class="hengtiao1">
+					<h3>
+						<a href="#">女装·男装</a>
+					</h3>
+					<em class="sanjiao" style="border-top-color:#f5619c;border-bottom-color:#f5619c;"></em>
+						<a href="#" class="ht1">盛夏新品年中大促</a>
+						<h4>
+						<a href="#">情侣T恤</a>
+						<span class="bar">|</span>
+						<a href="#">男装大促</a>
+					</h4>
+					</div>
+					<div class="ti1">
+						<div class="til">
+							<div class="tils">
+								<ul>
+									<li><a href="#" class="tou">潮流女装</a></li>
+									<li><a href="#" class="luckydog">夏新品</a></li>
+									<li><a href="#" >韩版</a></li>
+									<li><a href="#" >薄开衫</a></li>
+									<li><a href="#" >妈妈装</a></li>
+									<li><a href="#" >内衣</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="luckytou">连衣裙</a></li>
+									<li><a href="#" >长裙</a></li>
+									<li><a href="#" class="luckydog">雪纺裙</a></li>
+									<li><a href="#" >半身裙</a></li>
+									<li><a href="#" >雪纺衫</a></li>
+									<li><a href="#" >蕾丝衫</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">T恤</a></li>
+									<li><a href="#" class="luckydog">印花T</a></li>
+									<li><a href="#" >短袖</a></li>
+									<li><a href="#" >套装</a></li>
+									<li><a href="#" >衬衫</a></li>
+									<li><a href="#" >真丝</a></li>
+									<li><a href="#" >棉麻</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">裤子</a></li>
+									<li><a href="#" >短裤</a></li>
+									<li><a href="#" >九分</a></li>
+									<li><a href="#" class="luckydog">大码MM</a></li>
+									<li><a href="#" >90后</a></li>
+									<li><a href="#" class="luckydog">品牌仓库</a></li>
+								</ul> 
+							</div>
+							<div class="tilx">
+								<ul>
+									<li><a href="#" class="tou">时尚男装</a></li>
+									<li><a href="#" class="luckydog">夏新品</a></li>
+									<li><a href="#" >潮特价</a></li>
+									<li><a href="#" >品牌清仓</a></li>
+									<li><a href="#" >大码</a></li>
+									<li><a href="#" >棉麻</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">T恤</a></li>
+									<li><a href="#" class="luckydog">印花T</a></li>
+									<li><a href="#" >短袖</a></li>
+									<li><a href="#" >POLO</a></li>
+									<li><a href="#" >衬衫</a></li>
+									<li><a href="#" >套装</a></li>
+									<li><a href="#" >背心</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">裤子</a></li>
+									<li><a href="#" >休闲裤</a></li>
+									<li><a href="#" >短裤</a></li>
+									<li><a href="#" >牛仔裤</a></li>
+									<li><a href="#" >九分</a></li>
+									<li><a href="#" class="luckydog">亚麻裤</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">女装精品</a></li>
+									<li><a href="#" >短裤</a></li>
+									<li><a href="#" class="luckydog">长裙</a></li>
+									<li><a href="#" >t恤</a></li>
+									<li><a href="#" class="luckydog">雪纺衫</a></li>
+									<li><a href="#" >T恤</a></li>
+									<li><a href="#" >上衣</a></li>
+									<li><a href="#" >半身裙</a></li>
+								</ul>
+							</div>
+						</div>
+							<img src="images/xiaogg1.jpg" class="xiaogg">
+					</div>
+				</div>
+				<div class="hezi2">
+					<div class="hengtiao2">
+					<h3>
+						<a href="#">鞋靴·箱包</a>
+					</h3>
+					<em class="sanjiao" style="border-top-color:#aa73d1;border-bottom-color:#aa73d1;"></em>
+						<a href="#" class="ht2">大促爆款清单！</a>
+						<h4><a href="#">品牌男鞋</a>
+						<span class="bar">|</span>
+						<a href="#">箱包特卖</a>
+					</h4>
+					</div>
+					<div class="ti1">
+						<div class="til">
+							<div class="tils">
+								<ul>
+									<li><a href="#" class="tou">女鞋</a></li>
+									<li><a href="#" class="luckydog">夏上新</a></li>
+									<li><a href="#" >豆豆鞋</a></li>
+									<li><a href="#" >镂空靴</a></li>
+									<li><a href="#" >凉鞋</a></li>
+									<li><a href="#" >清仓</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="luckytou">单鞋</a></li>
+									<li><a href="#" >中跟</a></li>
+									<li><a href="#" >平底</a></li>
+									<li><a href="#" >坡跟</a></li>
+									<li><a href="#" class="luckydog">鱼嘴</a></li>
+									<li><a href="#" >凉拖</a></li>
+									<li><a href="#" >帆布鞋</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">男鞋</a></li>
+									<li><a href="#" >休闲</a></li>
+									<li><a href="#" >商务</a></li>
+									<li><a href="#" >潮流</a></li>
+									<li><a href="#" >皮鞋</a></li>
+									<li><a href="#" >帆布</a></li>
+									<li><a href="#" class="luckydog">凉鞋</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">沙滩鞋</a></li>
+									<li><a href="#" class="luckydog">品牌折扣</a></li>
+									<li><a href="#" >中老年</a></li>
+									<li><a href="#" >增高</a></li>
+									<li><a href="#" >豆豆鞋</a></li>
+									<li><a href="#" >透气</a></li>
+								</ul> 
+							</div>
+							<div class="tilx">
+								<ul>
+									<li><a href="#" class="luckytou">女包</a></li>
+									<li><a href="#" class="luckydog">夏上新</a></li>
+									<li><a href="#" >单肩包</a></li>
+									<li><a href="#" >双肩包</a></li>
+									<li><a href="#" >大牌</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">男包</a></li>
+									<li><a href="#" >商务包</a></li>
+									<li><a href="#" >休闲包</a></li>
+									<li><a href="#" class="luckydog">潮包</a></li>
+									<li><a href="#" >拉杆箱</a></li>
+									<li><a href="#" >钱包</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">服饰配件</a></li>
+									<li><a href="#" class="luckydog">帽子</a></li>
+									<li><a href="#" >皮带</a></li>
+									<li><a href="#" >丝巾</a></li>
+									<li><a href="#" class="luckydog">遮阳帽</a></li>
+									<li><a href="#" >防晒手套</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">新品女鞋</a></li>
+									<li><a href="#" class="luckydog">帆布鞋</a></li>
+									<li><a href="#" >男鞋</a></li>
+									<li><a href="#" class="luckydog">凉鞋</a></li>
+									<li><a href="#" >运动鞋</a></li>
+									<li><a href="#" >包包</a></li>
+									<li><a href="#" >拖鞋</a></li>
+								</ul>
+							</div>
+						</div>
+						<img src="images/xiaogg2.jpg" class="xiaogg">
+					</div>
+				</div>
+				<div class="hezi3">
+					<div class="hengtiao3">
+					<h3>
+						<a href="#">运动户外</a>
+					</h3>
+					<em class="sanjiao" style="border-top-color:#97b921;border-bottom-color:#97b921;"></em>
+						<a href="#" class="ht3">颜值爆表潮鞋</a>
+						<h4><a href="#">绝版限量</a>
+						<span class="bar">|</span>
+						<a href="#">限量潮鞋</a>
+					</h4>
+					</div>
+					<div class="ti2">
+						<div class="til">
+							<div class="tils">
+								<ul>
+									<li><a href="#" class="luckytou">运动鞋</a></li>
+									<li><a href="#" >跑步鞋</a></li>
+									<li><a href="#" >板鞋</a></li>
+									<li><a href="#" >篮球鞋</a></li>
+									<li><a href="#" >限量版</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">运动服</a></li>
+									<li><a href="#" >套装</a></li>
+									<li><a href="#" >七分裤</a></li>
+									<li><a href="#" >防晒服</a></li>
+									<li><a href="#" >T恤</a></li>
+									<li><a href="#" class="luckydog">短裤</a></li>
+									<li><a href="#" >阿迪</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">户外运动</a></li>
+									<li><a href="#" >皮肤衣</a></li>
+									<li><a href="#" >冲锋衣</a></li>
+									<li><a href="#" >徒步鞋</a></li>
+									<li><a href="#" class="luckydog">钓竿</a></li>
+									<li><a href="#" >渔具</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">健身用品</a></li>
+									<li><a href="#" >广场舞</a></li>
+									<li><a href="#" >跑步机</a></li>
+									<li><a href="#" class="luckydog">甩脂</a></li>
+									<li><a href="#" >羽毛球</a></li>
+									<li><a href="#" >篮球</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">骑行装备</a></li>
+									<li><a href="#" >山地车</a></li>
+									<li><a href="#" >死飞</a></li>
+									<li><a href="#" >电动车</a></li>
+									<li><a href="#" class="luckydog">电池</a></li>
+									<li><a href="#" >滑板车</a></li>
+								</ul>
+							</div>
+							<div class="tilxx">
+								<ul>
+									<li><a href="#" class="tou">运动装备</a></li>
+									<li><a href="#" class="luckydog">板鞋</a></li>
+									<li><a href="#" >跑鞋</a></li>
+									<li><a href="#" >男鞋</a></li>
+									<li><a href="#" >运动健身</a></li>
+									<li><a href="#" class="luckydog">t恤</a></li>
+									<li><a href="#" >连体泳衣</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<a class="geli" href="#">
+					<img src="images/xiaogg3.png" class="xxiaogg1">
+					<span class="xiaobt1">电池免费换新</span>
+					</a>
+					<a class="geli" href="#">
+					<img src="images/xiaogg4.jpg" class="xxiaogg2">
+					<span class="xiaobt2">骑行穿越川藏</span>
+					</a>
+				</div>
+				<div class="hezi4">
+					<div class="hengtiao4">
+					<h3>
+						<a href="#">珠宝配饰</a>
+					</h3>
+					<em class="sanjiao" style="border-top-color:#f5619c;border-bottom-color:#f5619c;"></em>
+						<a href="#" class="ht4">街拍新款耳环</a>
+						<h4><a href="#">设计师艺廊</a>
+						<span class="bar">|</span>
+						<a href="#">和田玉</a></h4>
+					</div>
+					<div class="ti2">
+						<div class="til">
+							<div class="tils">
+								<ul>
+									<li><a href="#" class="tou">时尚饰品</a></li>
+									<li><a href="#" >项链</a></li>
+									<li><a href="#" >手链</a></li>
+									<li><a href="#" >戒指</a></li>
+									<li><a href="#" >发饰</a></li>
+									<li><a href="#" >银饰</a></li>
+									<li><a href="#" >水晶</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="luckytou">珠宝首饰</a></li>
+									<li><a href="#" >翡翠</a></li>
+									<li><a href="#" >彩宝</a></li>
+									<li><a href="#" >蜜蜡</a></li>
+									<li><a href="#" >裸钻</a></li>
+									<li><a href="#" >珍珠</a></li>
+									<li><a href="#" >黄金</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">品质手表</a></li>
+									<li><a href="#" >瑞士表</a></li>
+									<li><a href="#" >机械表</a></li>
+									<li><a href="#" >时装表</a></li>
+									<li><a href="#" >儿童表</a></li>
+									<li><a href="#" >配件</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">眼睛饰品</a></li>
+									<li><a href="#" >太阳镜</a></li>
+									<li><a href="#" >偏光镜</a></li>
+									<li><a href="#" >近视镜</a></li>
+									<li><a href="#" >电子烟</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">最热单品</a></li>
+									<li><a href="#" class="luckydog">和田玉</a></li>
+									<li><a href="#" >翡翠</a></li>
+									<li><a href="#" >水晶/佛珠</a></li>
+									<li><a href="#" >黄金</a></li>
+									<li><a href="#" >手表</a></li>
+								</ul>
+							</div>
+							<div class="tilxx">
+								<ul>
+									<li><a href="#" class="tou">流行饰品</a></li>
+									<li><a href="#" class="luckydog">头饰</a></li>
+									<li><a href="#" >手表</a></li>
+									<li><a href="#" class="luckydog">配饰</a></li>
+									<li><a href="#" >菩提</a></li>
+									<li><a href="#" >散珠</a></li>
+									<li><a href="#" >情侣戒指</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<a class="geli" href="#">
+					<img src="images/xiaogg5.png" class="xxiaogg1">
+					<span class="xiaobt1">时下最新爆款</span>
+					</a>
+					<a class="geli" href="#">
+					<img src="images/xiaogg6.png" class="xxiaogg2">
+					<span class="xiaobt2">6月Kiss情人节</span>
+					</a>
+					</div>
+				</div>
+				<img src="images/guanggao1.jpg" class="ad">
+
+
+
+				<!--华丽的分割线-->
+				<div class="sidahezi">
+				<div class="hezi3">
+					<div class="hengtiao3c">
+					<h3>
+						<a href="#">手机数码</a>
+					</h3>
+					<em class="sanjiao" style="border-top-color:#10c2ce;border-bottom-color:#10c2ce;"></em>
+						<a href="#" class="ht3c">苹果最高直降1000</a>
+						<h4><a href="#">高清显示</a>
+						<span class="bar">|</span>
+						<a href="#">苹果底价</a>
+					</h4>
+					</div>
+					<div class="ti2">
+						<div class="til">
+							<div class="tils">
+								<ul>
+									<li><a href="#" class="luckytou">手机</a></li>
+									<li><a href="#" >iPhone</a></li>
+									<li><a href="#" class="luckydog">小米</a></li>
+									<li><a href="#" >华为</a></li>
+									<li><a href="#" >三星</a></li>
+									<li><a href="#" >魅族</a></li>
+									<li><a href="#" >纽扣</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">平板</a></li>
+									<li><a href="#" class="luckydog">iPad</a></li>
+									<li><a href="#" >小米</a></li>
+									<li><a href="#" >三星</a></li>
+									<li><a href="#" >10寸</a></li>
+									<li><a href="#" >台电</a></li>
+									<li><a href="#" >win8</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">电脑</a></li>
+									<li><a href="#" >笔记本</a></li>
+									<li><a href="#" class="luckydog">DIY电脑</a></li>
+									<li><a href="#" >一体机</a></li>
+									<li><a href="#" >路由器</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">相机</a></li>
+									<li><a href="#" >单反</a></li>
+									<li><a href="#" class="luckydog">自拍神器</a></li>
+									<li><a href="#" >拍立得</a></li>
+									<li><a href="#" >佳能</a></li>
+									<li><a href="#" >微单</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">3C配件</a></li>
+									<li><a href="#" >充电宝</a></li>
+									<li><a href="#" class="luckydog">智能穿戴</a></li>
+									<li><a href="#" >蓝牙耳机</a></li>
+									<li><a href="#" >iPhone6壳</a></li>
+								</ul>
+							</div>
+							<div class="tilxx">
+								<ul>
+									<li><a href="#" class="tou">6寸大屏</a></li>
+									<li><a href="#" >iPhone6套</a></li>
+									<li><a href="#" >手机大全</a></li>
+									<li><a href="#" >小米手机</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<a class="geli" href="#">
+					<img src="images/xiaogg7.jpg" class="xxiaogg1">
+					<span class="xiaobt1">魅族品牌日</span>
+					</a>
+					<a class="geli" href="#">
+					<img src="images/xiaogg8.jpg" class="xxiaogg2">
+					<span class="xiaobt2">手机34元起</span>
+					</a>
+				</div>
+				<div class="hezi4">
+					<div class="hengtiao4c">
+					<h3>
+						<a href="#">家电办公</a>
+					</h3>
+					<em class="sanjiao" style="border-top-color:#52a0e8;border-bottom-color:#52a0e8;"></em>
+						<a href="#" class="ht4c">智能电器低至34</a>
+						<h4><a href="#">电器清仓</a>
+						<span class="bar">|</span>
+						<a href="#">女士专享</a></h4>
+					</div>
+					<div class="ti2">
+						<div class="til">
+							<div class="tils">
+								<ul>
+									<li><a href="#" class="tou">大家电</a></li>
+									<li><a href="#" class="luckydog">平板电视</a></li>
+									<li><a href="#" >冰箱</a></li>
+									<li><a href="#" >空调</a></li>
+									<li><a href="#" >烟机灶具</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="luckytou">厨房电器</a></li>
+									<li><a href="#" >榨汁机</a></li>
+									<li><a href="#" class="luckydog">家用净水</a></li>
+									<li><a href="#" >电饭煲</a></li>
+									<li><a href="#" >豆浆机</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">生活电器</a></li>
+									<li><a href="#" >除湿器</a></li>
+									<li><a href="#" class="luckydog">空气净化</a></li>
+									<li><a href="#" >净水器</a></li>
+									<li><a href="#" >挂烫机</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">个护电器</a></li>
+									<li><a href="#" class="luckydog">按摩椅</a></li>
+									<li><a href="#" >剃须刀</a></li>
+									<li><a href="#" >蒸脸器</a></li>
+									<li><a href="#" >家庭保健</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">办公耗材</a></li>
+									<li><a href="#" class="luckydog">投影仪</a></li>
+									<li><a href="#" >打印机</a></li>
+									<li><a href="#" >A4</a></li>
+									<li><a href="#" >保险柜</a></li>
+									<li><a href="#" class="luckydog">文具</a></li>
+								</ul>
+							</div>
+							<div class="tilxx">
+								<ul>
+									<li><a href="#" class="tou">空气净化</a></li>
+									<li><a href="#" >kindle</a></li>
+									<li><a href="#" >学霸神器</a></li>
+									<li><a href="#" class="luckydog">学生文具</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<a class="geli" href="#">
+					<img src="images/xiaogg9.jpg" class="xxiaogg1">
+					<span class="xiaobt1">能减肥的秤</span>
+					</a>
+					<a class="geli" href="#">
+					<img src="images/xiaogg10.jpg" class="xxiaogg2">
+					<span class="xiaobt2">潮流电器清单</span>
+					</a>
+					</div>
+				<div class="hezi3">
+					<div class="hengtiao3s">
+					<h3>
+						<a href="#">护肤彩妆</a>
+					</h3>
+					<em class="sanjiao" style="border-top-color:#aa73d1;border-bottom-color:#aa73d1;"></em>
+						<a href="#" class="ht3s">完美上镜瘦五斤</a>
+						<h4><a href="#">男士护肤</a>
+						<span class="bar">|</span>
+						<a href="#">最热卖</a>
+					</h4>
+					</div>
+					<div class="ti2">
+						<div class="til">
+							<div class="tils">
+								<ul>
+									<li><a href="#" class="tou">美容护肤</a></li>
+									<li><a href="#" >卸妆</a></li>
+									<li><a href="#" >洁面</a></li>
+									<li><a href="#" >爽肤水</a></li>
+									<li><a href="#" class="luckydog">芦荟胶</a></li>
+									<li><a href="#" >眼霜</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">强效保养</a></li>
+									<li><a href="#" >精华</a></li>
+									<li><a href="#" >面膜</a></li>
+									<li><a href="#" >套装</a></li>
+									<li><a href="#" >身体乳</a></li>
+									<li><a href="#" class="luckydog">防晒</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">超值彩妆</a></li>
+									<li><a href="#" >眼线</a></li>
+									<li><a href="#" >彩妆盘</a></li>
+									<li><a href="#" class="luckydog">BB霜</a></li>
+									<li><a href="#" >粉底液</a></li>
+									<li><a href="#" >唇膏</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">大牌特价</a></li>
+									<li><a href="#" >瘦身</a></li>
+									<li><a href="#" >脱毛</a></li>
+									<li><a href="#" class="luckydog">丰胸</a></li>
+									<li><a href="#" >收缩毛孔</a></li>
+									<li><a href="#" >去黑头</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="luckytou">香港直发</a></li>
+									<li><a href="#" >V脸</a></li>
+									<li><a href="#" class="luckydog">美白</a></li>
+									<li><a href="#" >去黑眼圈</a></li>
+									<li><a href="#" >祛斑</a></li>
+									<li><a href="#" >祛痘</a></li>
+								</ul>
+							</div>
+							<div class="tilxx">
+								<ul>
+									<li><a href="#" class="tou">冬季面膜</a></li>
+									<li><a href="#" >爽肤水</a></li>
+									<li><a href="#" >面霜</a></li>
+									<li><a href="#" >套装</a></li>
+									<li><a href="#" >BB霜</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<a class="geli" href="#">
+					<img src="images/xiaogg11.jpg" class="xxiaogg1">
+					<span class="xiaobt1">美装爆款特卖</span>
+					</a>
+					<a class="geli" href="#">
+					<img src="images/xiaogg12.jpeg" class="xxiaogg2">
+					<span class="xiaobt2">夏日必备特卖</span>
+					</a>
+				</div>
+				<div class="hezi4">
+					<div class="hengtiao4">
+					<h3>
+						<a href="#">母婴用品</a>
+					</h3>
+					<em class="sanjiao" style="border-top-color:#f5619c;border-bottom-color:#f5619c;"></em>
+						<a href="#" class="ht4">全球尖货大赏NO.2</a>
+						<h4><a href="#">套装整搭专辑</a>
+						<span class="bar">|</span>
+						<a href="#">吸奶器</a></h4>
+					</div>
+					<div class="ti2">
+						<div class="til">
+							<div class="tils">
+								<ul>
+									<li><a href="#" class="luckytou">儿童童装</a></li>
+									<li><a href="#" >T恤</a></li>
+									<li><a href="#" class="luckydog">泳装</a></li>
+									<li><a href="#" >套装</a></li>
+									<li><a href="#" >雨鞋</a></li>
+									<li><a href="#" >裙子</a></li>
+									<li><a href="#" >亲子</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">孕装用品</a></li>
+									<li><a href="#" >连衣裙</a></li>
+									<li><a href="#" >内衣</a></li>
+									<li><a href="#" class="luckydog">外出哺乳装</a></li>
+									<li><a href="#" >内裤</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">婴幼用品</a></li>
+									<li><a href="#" >纸尿裤</a></li>
+									<li><a href="#" >伞车</a></li>
+									<li><a href="#" >婴儿床</a></li>
+									<li><a href="#" >驱蚊</a></li>
+									<li><a href="#" class="luckydog">痱子粉</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="luckytou">海淘奶粉</a></li>
+									<li><a href="#" >奶粉</a></li>
+									<li><a href="#" >清火</a></li>
+									<li><a href="#" >奶酪</a></li>
+									<li><a href="#" class="luckydog">进口零食</a></li>
+									<li><a href="#" >益生菌</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">儿童玩具</a></li>
+									<li><a href="#" class="luckydog">磁力片</a></li>
+									<li><a href="#" >童车</a></li>
+									<li><a href="#" >滑板车</a></li>
+									<li><a href="#" >乐高</a></li>
+									<li><a href="#" >遥控</a></li>
+								</ul>
+							</div>
+							<div class="tilxx">
+								<ul>
+									<li><a href="#" class="tou">羽绒服</a></li>
+									<li><a href="#" >电动车</a></li>
+									<li><a href="#" >睡袋</a></li>
+									<li><a href="#" >棉鞋</a></li>
+									<li><a href="#" >爱他美</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<a class="geli" href="#">
+					<img src="images/xiaogg13.png" class="xxiaogg1">
+					<span class="xiaobt1">放心海淘吧！</span>
+					</a>
+					<a class="geli" href="#">
+					<img src="images/xiaogg14.png" class="xxiaogg2">
+					<span class="xiaobt2">夏日棉麻精品</span>
+					</a>
+				</div>
+			</div>
+				<img src="images/guanggao2.png" class="ad">
+
+
+
+
+				<!--又是一条华丽丽的分割线-->
+				<div class="sidahezi">
+				<div class="hezi3">
+					<div class="hengtiao4s">
+					<h3>
+						<a href="#">家居家纺</a>
+					</h3>
+					<em class="sanjiao" style="border-top-color:#b68571;border-bottom-color:#b68571;"></em>
+						<a href="#" class="ht4s">夏季专用沙发垫</a>
+						<h4><a href="#">软装整体解决方案</a>
+						<span class="bar">|</span>
+						<a href="#">地垫抢购</a>
+					</h4>
+					</div>
+					<div class="ti2">
+						<div class="til">
+							<div class="tils">
+								<ul>
+									<li><a href="#" class="tou">床上用品</a></li>
+									<li><a href="#" >四件套</a></li>
+									<li><a href="#" >夏凉被</a></li>
+									<li><a href="#" class="luckydog">凉席</a></li>
+									<li><a href="#" class="luckydog">蚊帐</a></li>
+									<li><a href="#" >记忆枕</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">居家布艺</a></li>
+									<li><a href="#" class="luckydog">餐桌布艺</a></li>
+									<li><a href="#" >沙发垫</a></li>
+									<li><a href="#" >窗帘</a></li>
+									<li><a href="#" >地毯</a></li>
+									<li><a href="#" >地垫</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">客厅家具</a></li>
+									<li><a href="#" class="luckydog">沙发</a></li>
+									<li><a href="#" >茶几</a></li>
+									<li><a href="#" >电视柜</a></li>
+									<li><a href="#" >懒人沙发</a></li>
+									<li><a href="#" >鞋柜</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">卧室家具</a></li>
+									<li><a href="#" class="luckydog">床</a></li>
+									<li><a href="#" >衣柜</a></li>
+									<li><a href="#" >书柜</a></li>
+									<li><a href="#" >电脑桌</a></li>
+									<li><a href="#" >高低床</a></li>
+									<li><a href="#" >架类</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">家居饰品</a></li>
+									<li><a href="#" >摆件</a></li>
+									<li><a href="#" class="luckydog">画</a></li>
+									<li><a href="#" >照片墙</a></li>
+									<li><a href="#" >花艺</a></li>
+									<li><a href="#" >壁饰</a></li>
+									<li><a href="#" >墙贴</a></li>
+								</ul>
+							</div>
+							<div class="tilxx">
+								<ul>
+									<li><a href="#" class="tou">四件套</a></li>
+									<li><a href="#" >原创抱枕</a></li>
+									<li><a href="#" >精品大床</a></li>
+									<li><a href="#" >布艺沙发</a></li>
+									<li><a href="#" >装饰摆件</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<a class="geli" href="#">
+					<img src="images/xiaogg15.jpg" class="xxiaogg1">
+					<span class="xiaobt1">值得买的好设计</span>
+					</a>
+					<a class="geli" href="#">
+					<img src="images/xiaogg16.jpg" class="xxiaogg2">
+					<span class="xiaobt2">跟着达人买家居</span>
+					</a>
+				</div>
+				<div class="hezi4">
+					<div class="hengtiao4s">
+					<h3>
+						<a href="#">家装建材</a>
+					</h3>
+					<em class="sanjiao" style="border-top-color:#b68571;border-bottom-color:#b68571;"></em>
+						<a href="#" class="ht4s">疯抢20万装修款！</a>
+						<h4><a href="#">灵感美图</a>
+						<span class="bar">|</span>
+						<a href="#">装修日记</a></h4>
+					</div>
+					<div class="ti2">
+						<div class="til">
+							<div class="tils">
+								<ul>
+									<li><a href="#" class="tou">卫浴工程</a></li>
+									<li><a href="#" >浴室柜</a></li>
+									<li><a href="#" class="luckydog">一体马桶</a></li>
+									<li><a href="#" >性格花洒</a></li>
+									<li><a href="#" >龙头大哥</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">照明工程</a></li>
+									<li><a href="#" >吊灯</a></li>
+									<li><a href="#" class="luckydog">吸顶灯</a></li>
+									<li><a href="#" >射灯</a></li>
+									<li><a href="#" >台灯</a></li>
+									<li><a href="#" >壁灯</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">墙地面</a></li>
+									<li><a href="#" class="luckydog">墙纸</a></li>
+									<li><a href="#" >地板</a></li>
+									<li><a href="#" >马赛克</a></li>
+									<li><a href="#" >瓷砖</a></li>
+									<li><a href="#" >涂料</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">五金工具</a></li>
+									<li><a href="#" class="luckydog">摄像头</a></li>
+									<li><a href="#" >开关</a></li>
+									<li><a href="#" >插座</a></li>
+									<li><a href="#" >工具箱</a></li>
+									<li><a href="#" >家用五金</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">家装定制</a></li>
+									<li><a href="#" class="luckydog">装修公司</a></li>
+									<li><a href="#" >全包</a></li>
+									<li><a href="#" >吊顶</a></li>
+									<li><a href="#" >定制橱柜</a></li>
+								</ul>
+							</div>
+							<div class="tilxx">
+								<ul>
+									<li><a href="#" class="tou">水槽套装</a></li>
+									<li><a href="#" >花洒龙头</a></li>
+									<li><a href="#" class="luckydog">照明灯具</a></li>
+									<li><a href="#" >电源插座</a></li>
+									<li><a href="#" >实木地板</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<a class="geli" href="#">
+					<img src="images/xiaogg17.png" class="xxiaogg1">
+					<span class="xiaobt1">就给你免费装修</span>
+					</a>
+					<a class="geli" href="#">
+					<img src="images/xiaogg18.jpg" class="xxiaogg2">
+					<span class="xiaobt2">有味道的灯饰</span>
+					</a>
+					</div>
+				<div class="hezi3s">
+					<div class="hengtiao3">
+					<h3>
+						<a href="#">汇吃美食</a>
+					</h3>
+					<em class="sanjiao" style="border-top-color:#97b921;border-bottom-color:#97b921;"></em>
+						<a href="#" class="ht3">吃货9.9元专场</a>
+						<h4><a href="#">地方美食</a>
+						<span class="bar">|</span>
+						<a href="#">全球美食</a>
+					</h4>
+					</div>
+					<div class="shuggti">
+					<img src="images/shugg1.jpg" class="shugg1">
+					<img src="images/shugg2.png" class="shugg2">
+					<img src="images/shugg3.jpg" class="shugg3">
+					<img src="images/shugg4.jpg" class="shugg4">
+								<div class="insert1">
+								<ul>
+									<li><a href="#" class="tou">鲜果肉禽</a></li>
+									<li><a href="#" >樱桃</a></li>
+									<li><a href="#" class="luckydog">荔枝</a></li>
+									<li><a href="#" >龙虾</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">零食酒水</a></li>
+									<li><a href="#" class="luckydog">净颜梅</a></li>
+									<li><a href="#" >进口零食</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">粮油滋补</a></li>
+									<li><a href="#" class="luckydog">大米</a></li>
+									<li><a href="#" >黄豆</a></li>
+									<li><a href="#" >枸杞</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">茶叶冲饮</a></li>
+									<li><a href="#" >铁观音</a></li>
+									<li><a href="#" >普洱</a></li>
+									<li><a href="#" class="luckydog">咖啡</a></li>
+								</ul>
+								</div>
+					</div>
+				</div>
+				<div class="hezi4s">
+					<div class="hengtiao4s">
+					<h3>
+						<a href="#">百货市场</a>
+					</h3>
+					<em class="sanjiao" style="border-top-color:#b68571;border-bottom-color:#b68571;"></em>
+						<a href="#" class="ht4s">夏季凉爽冰垫 </a>
+						<h4><a href="#">洗护纸品</a>
+						<span class="bar">|</span>
+						<a href="#">收纳整理</a></h4>
+					</div>
+					<div class="shuggti">
+						<div class="tilp">
+							<div class="tils">
+								<ul>
+									<li><a href="#" class="tou">居家小物</a></li>
+									<li><a href="#" class="luckydog">拖鞋</a></li>
+									<li><a href="#" >防晒伞</a></li>
+									<li><a href="#" >口罩</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="luckytou">厨房餐饮</a></li>
+									<li><a href="#" >玻璃杯</a></li>
+									<li><a href="#" >保温杯</a></li>
+									<li><a href="#" class="luckydog">茶具</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">洗护纸品</a></li>
+									<li><a href="#" >牙膏</a></li>
+									<li><a href="#" class="luckydog">Duang</a></li>
+									<li><a href="#" >卫生巾</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">居家日用</a></li>
+									<li><a href="#" class="luckydog">创意品</a></li>
+									<li><a href="#" >喜糖盒</a></li>
+									<li><a href="#" class="luckydog">眼罩</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">换季收纳</a></li>
+									<li><a href="#" class="luckydog">收纳箱</a></li>
+									<li><a href="#" >晾衣架</a></li>
+									<li><a href="#" >鞋柜</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">大扫除</a></li>
+									<li><a href="#" class="luckydog">拖把</a></li>
+									<li><a href="#" >垃圾桶</a></li>
+									<li><a href="#" >洗脸刷</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">节庆用品</a></li>
+									<li><a href="#" >情人节</a></li>
+									<li><a href="#" >结婚吧</a></li>
+									<li><a href="#" >送礼</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="sigetu">
+							<a href="#"><img src="images/xiaogg19.jpeg" class="diyigetu">
+								<span class="yi">特色雨伞</span></a>
+								<a href="#"><img src="images/xiaogg20.png" class="diergetu">
+								<span class="er">餐饮焕新</span></a>
+								<a href="#"><img src="images/xiaogg21.png" class="disangetu">
+								<span class="san">旅行帮手</span></a>
+								<a href="#"><img src="images/xiaogg22.jpg" class="disigetu">
+								<span class="si">驱蚊灯</span></a>
+						</div>
+						<div class="insert">
+							<img src="images/sidebar1.png">
+							<img src="images/sidebar2.jpg">
+						</div>
+					</div>
+				</div>
+			</div>
+			<img src="images/guanggao3.jpg" class="ad">
+
+
+
+			<!--最后一条华丽的分界线-->
+			<div class="sidahezi">
+				<div class="hezi3">
+					<div class="hengtiao4c">
+					<h3>
+						<a href="#">汽车摩托</a>
+					</h3>
+					<em class="sanjiao" style="border-top-color:#52a0e8;border-bottom-color:#52a0e8;"></em>
+						<a href="#" class="ht4c">安全座椅3C认证</a>
+						<h4><a href="#">夏日贴膜</a>
+						<span class="bar">|</span>
+						<a href="#">新品包邮</a>
+					</h4>
+					</div>
+					<div class="ti2">
+						<div class="til">
+							<div class="tils">
+								<ul>
+									<li><a href="#" class="tou">内外车饰</a></li>
+									<li><a href="#" class="luckydog">夏季座垫</a></li>
+									<li><a href="#" >香水</a></li>
+									<li><a href="#" >脚垫</a></li>
+									<li><a href="#" >挂件</a></li>
+									<li><a href="#" >遮阳挡</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="luckytou">汽车配饰</a></li>
+									<li><a href="#" >高配大灯</a></li>
+									<li><a href="#" >轮胎</a></li>
+									<li><a href="#" class="luckydog">改氙气灯</a></li>
+									<li><a href="#" >雨刮</a></li>
+									<li><a href="#" >机油</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">电子影音</a></li>
+									<li><a href="#" class="luckydog">记录仪</a></li>
+									<li><a href="#" >车机</a></li>
+									<li><a href="#" >电子狗</a></li>
+									<li><a href="#" >GPS</a></li>
+									<li><a href="#" >车载氧吧</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">品牌整车</a></li>
+									<li><a href="#" >新车秒杀</a></li>
+									<li><a href="#" class="luckydog">平行进口</a></li>
+									<li><a href="#" >二手车</a></li>
+									<li><a href="#" >爱车估价</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">汽车服务</a></li>
+									<li><a href="#" >配件安装</a></li>
+									<li><a href="#" >4s保养</a></li>
+									<li><a href="#" class="luckydog">隔热膜</a></li>
+									<li><a href="#" >电瓶安装</a></li>
+								</ul>
+							</div>
+							<div class="tilxx">
+								<ul>
+									<li><a href="#" class="tou">汽车用品</a></li>
+									<li><a href="#" >防眩蓝镜</a></li>
+									<li><a href="#" class="luckydog">安全座椅</a></li>
+									<li><a href="#" >防晒手套</a></li>
+									<li><a href="#" >车震床</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<a class="geli" href="#">
+					<img src="images/xiaogg23.jpg" class="xxiaogg1">
+					<span class="xiaobt1">车品预售裸奔价</span>
+					</a>
+					<a class="geli" href="#">
+					<img src="images/xiaogg24.jpg" class="xxiaogg2">
+					<span class="xiaobt2">中国好机油</span>
+					</a>
+				</div>
+				<div class="hezi4">
+					<div class="hengtiao3">
+					<h3>
+						<a href="#">花鸟文娱</a>
+					</h3>
+					<em class="sanjiao" style="border-top-color:#97b921;border-bottom-color:#97b921;"></em>
+						<a href="#" class="ht3">会吃虫的植物</a>
+						<h4><a href="#">小型鱼缸</a>
+						<span class="bar">|</span>
+						<a href="#">奇趣宠物</a></h4>
+					</div>
+					<div class="ti2">
+						<div class="til">
+							<div class="tils">
+								<ul>
+									<li><a href="#" class="luckytou">鲜花园艺</a></li>
+									<li><a href="#" >大型绿植</a></li>
+									<li><a href="#" >多肉</a></li>
+									<li><a href="#" class="luckydog">插花培训</a></li>
+									<li><a href="#" >水培</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">猫狗世界</a></li>
+									<li><a href="#" >加菲猫</a></li>
+									<li><a href="#" >秋田犬</a></li>
+									<li><a href="#" class="luckydog">上门洗澡</a></li>
+									<li><a href="#" >泰迪狗粮</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">水族小宠</a></li>
+									<li><a href="#" >鱼</a></li>
+									<li><a href="#" >水草造景</a></li>
+									<li><a href="#" class="luckydog">桌面鱼缸</a></li>
+									<li><a href="#" >鸟</a></li>
+									<li><a href="#" >龙猫</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">乐器音乐</a></li>
+									<li><a href="#" >吉他</a></li>
+									<li><a href="#" class="luckydog">葫芦丝</a></li>
+									<li><a href="#" >钢琴</a></li>
+									<li><a href="#" >Midi键盘</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">动漫模型</a></li>
+									<li><a href="#" >哆啦A梦</a></li>
+									<li><a href="#" >动漫T恤</a></li>
+									<li><a href="#" class="luckydog">复仇者联盟</a></li>
+									<li><a href="#" >海贼王</a></li>
+								</ul>
+							</div>
+							<div class="tilxx">
+								<ul>
+									<li><a href="#" class="tou">鲜花</a></li>
+									<li><a href="#" >风信子</a></li>
+									<li><a href="#" class="luckydog">多肉</a></li>
+									<li><a href="#" >狗狗</a></li>
+									<li><a href="#" >水族</a></li>
+									<li><a href="#" >狗窝</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<a class="geli" href="#">
+					<img src="images/xiaogg25.png" class="xxiaogg1">
+					<span class="xiaobt1">哆啦A梦电影</span>
+					</a>
+					<a class="geli" href="#">
+					<img src="images/xiaogg26.jpg" class="xxiaogg2">
+					<span class="xiaobt2">民谣吉他</span>
+					</a>
+					</div>
+				<div class="hezi3">
+					<div class="hengtiao3">
+					<h3>
+						<a href="#">生活服务</a>
+					</h3>
+					<em class="sanjiao" style="border-top-color:#97b921;border-bottom-color:#97b921;"></em>
+						<a href="#" class="ht3">在线洗衣</a>
+						<h4><a href="#">9.9特价</a>
+						<span class="bar">|</span>
+						<a href="#">爆款抢购</a>
+					</h4>
+					</div>
+					<div class="ti2">
+						<div class="til">
+							<div class="tils">
+								<ul>
+									<li><a href="#" class="luckytou">万能缴费</a></li>
+									<li><a href="#" >水电煤</a></li>
+									<li><a href="#" class="luckydog">话费</a></li>
+									<li><a href="#" >交罚单</a></li>
+									<li><a href="#" >宽带费</a></li>
+									<li><a href="#" >加油卡</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">便民服务</a></li>
+									<li><a href="#" class="luckydog">网上办事</a></li>
+									<li><a href="#" >汽车服务</a></li>
+									<li><a href="#" >洗衣</a></li>
+									<li><a href="#" >钟点工</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="luckytou">最家生活</a></li>
+									<li><a href="#" >月嫂</a></li>
+									<li><a href="#" >洗车</a></li>
+									<li><a href="#" class="luckydog">私人厨师</a></li>
+									<li><a href="#" >KTV</a></li>
+									<li><a href="#" >婚纱摄影</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="luckytou">逃学</a></li>
+									<li><a href="#" >美女陪你练</a></li>
+									<li><a href="#" >甩肉</a></li>
+									<li><a href="#" class="luckydog">DIY</a></li>
+									<li><a href="#" >股市</a></li>
+									<li><a href="#" >限时免费</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">买房租房</a></li>
+									<li><a href="#" >新房</a></li>
+									<li><a href="#" >租房</a></li>
+									<li><a href="#" >二手房</a></li>
+									<li><a href="#" >家装红包</a></li>
+								</ul>
+							</div>
+							<div class="tilxx">
+								<ul>
+									<li><a href="#" class="tou">话费充值</a></li>
+									<li><a href="#" class="luckydog">充值卡</a></li>
+									<li><a href="#" >联通充值卡</a></li>
+									<li><a href="#" >电信手机</a></li>
+									<li><a href="#" class="luckydog">流量卡</a></li>
+									<li><a href="#" >wifi</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<a class="geli" href="#">
+					<img src="images/xiaogg27.jpg" class="xxiaogg1">
+					<span class="xiaobt1">1元当证婚人</span>
+					</a>
+					<a class="geli" href="#">
+					<img src="images/xiaogg28.jpg" class="xxiaogg2">
+					<span class="xiaobt2">大扫除好帮手</span>
+					</a>
+				</div>
+				<div class="hezi4">
+					<div class="hengtiao3c">
+					<h3>
+						<a href="#">更多服务</a>
+					</h3>
+					<em class="sanjiao" style="border-top-color:#10c2ce;border-bottom-color:#10c2ce;"></em>
+						<a href="#" class="ht3c">angelababy陪你看</a>
+						<h4><a href="#">品牌配镜</a>
+						<span class="bar">|</span>
+						<a href="#">大神买彩</a></h4>
+					</div>
+					<div class="ti2">
+						<div class="til">
+							<div class="tils">
+								<ul>
+									<li><a href="#" class="tou">游戏</a></li>
+									<li><a href="#" >魔兽世界</a></li>
+									<li><a href="#" >LOL</a></li>
+									<li><a href="#" class="luckydog">点卡</a></li>
+									<li><a href="#" >装备</a></li>
+									<li><a href="#" >代练</a></li>
+									<li><a href="#" >账号</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="luckytou">彩票</a></li>
+									<li><a href="#" >双色球</a></li>
+									<li><a href="#" >大乐透</a></li>
+									<li><a href="#" class="luckydog">生活汇</a></li>
+									<li><a href="#" >甜品</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="luckytou">闲鱼</a></li>
+									<li><a href="#" >苹果</a></li>
+									<li><a href="#" >电脑</a></li>
+									<li><a href="#" >绝版货</a></li>
+									<li><a href="#" class="luckydog">二手车</a></li>
+									<li><a href="#" >家有萌宠</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="luckytou">纯手工</a></li>
+									<li><a href="#" >乐高</a></li>
+									<li><a href="#" >二手镜头</a></li>
+									<li><a href="#" >高跟鞋</a></li>
+									<li><a href="#" class="luckydog">土特产</a></li>
+								</ul>
+								<ul>
+									<li><a href="#" class="tou">达人精选</a></li>
+									<li><a href="#" class="luckydog">颜值爆表</a></li>
+									<li><a href="#" class="luckydog">最美潮包</a></li>
+									<li><a href="#" >达人帮你找</a></li>
+								</ul>
+							</div>
+							<div class="tilxx">
+								<ul>
+									<li><a href="#" class="tou">爱逛街</a></li>
+									<li><a href="#" >毛领大衣</a></li>
+									<li><a href="#" >画眼线</a></li>
+									<li><a href="#" >雪地靴</a></li>
+									<li><a href="#" >9.9百货</a></li>
+									<li><a href="#" >韩版</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<a class="geli" href="#">
+					<img src="images/xiaogg29.jpeg" class="xxiaogg1">
+					<span class="xiaobt1">端午节特惠</span>
+					</a>
+					<a class="geli" href="#">
+					<img src="images/xiaogg30.png" class="xxiaogg2">
+					<span class="xiaobt2">二手车估价</span>
+					</a>
+				</div>
+			</div>
+				<img src="images/guanggao4.png" class="ad">
+			</div>
+			<div class="thirdright">
+				<div class="tirrs">
+					<div class="tirrs1">
+						<img src="images/aixin.png">
+						<h3>发现·好货</h3>
+						<a href="#">定制我的偏好</a>
+				    </div>
+				    <div class="tirrs2">
+				    	<a onmouseover="playbar1(this)" onmouseout="hiddbar1(this)">
+				    	<div class="xiaogejian">
+				    		<img src="images/xiaogejian1.jpg">
+				    		<h4>美貌又刺绣真丝</h4>
+				    		<div class="jqt">近7天同城销售</div>
+				    		<div class="yishou">已售112件</div>
+				    	</div></a>
+				    	<div id="hidbar1" class="hidbar" onmouseover="playbar1(this)" onmouseout="hiddbar1(this)">
+				    	<ul>
+				    	<a href="#"><li>收藏</li></a>
+				    	<a href="#"><li>不喜欢</li></a>
+				    	<a href="#" class="luckydog"><li>我要自定义</li></a>
+				    	</ul>
+				    	</div>
+
+				    	<a onmouseover="playbar2(this)" onmouseout="hiddbar2(this)">
+				    	<div class="xiaogejian">
+				    		<img src="images/xiaogejian2.jpg">
+				    		<h4>包邮m690儿童玩</h4>
+				    		<div class="jqt">近7天同城销售</div>
+				    		<div class="yishou">已售20件</div>
+				    	</div></a>
+				    	<div id="hidbar2" class="hidbar" onmouseover="playbar2(this)" onmouseout="hiddbar2(this)">
+				    	<ul>
+				    	<a href="#"><li>收藏</li></a>
+				    	<a href="#"><li>不喜欢</li></a>
+				    	<a href="#" class="luckydog"><li>我要自定义</li></a>
+				    	</ul>
+				    	</div>
+
+				    	<a onmouseover="playbar3(this)" onmouseout="hiddbar3(this)">
+				    	<div class="xiaogejian">
+				    		<img src="images/xiaogejian3.jpg">
+				    		<h4>DXIAN鹰王有帅</h4>
+				    		<div class="jqt">近7天同城销售</div>
+				    		<div class="yishou">已售166件</div>
+				    	</div></a>
+				    	<div id="hidbar3" class="hidbar" onmouseover="playbar3(this)" onmouseout="hiddbar3(this)">
+				    	<ul>
+				    	<a href="#"><li>收藏</li></a>
+				    	<a href="#"><li>不喜欢</li></a>
+				    	<a href="#" class="luckydog"><li>我要自定义</li></a>
+				    	</ul>
+				    	</div>
+						
+						<a onmouseover="playbar4(this)" onmouseout="hiddbar4(this)">
+				    	<div class="xiaogejian">
+				    		<img src="images/xiaogejian4.jpg">
+				    		<h4>大码 来了 男士高</h4>
+				    		<div class="jqt">近7天同城销售</div>
+				    		<div class="yishou">已售3件</div>
+				    	</div></a>
+				    	<div id="hidbar4" class="hidbar" onmouseover="playbar4(this)" onmouseout="hiddbar4(this)">
+				    	<ul>
+				    	<a href="#"><li>收藏</li></a>
+				    	<a href="#"><li>不喜欢</li></a>
+				    	<a href="#" class="luckydog"><li>我要自定义</li></a>
+				    	</ul>
+				    	</div>
+
+						<a onmouseover="playbar5(this)" onmouseout="hiddbar5(this)">
+				    	<div class="xiaogejian">
+				    		<img src="images/xiaogejian5.jpg">
+				    		<h4>2015夏 真丝女裤</h4>
+				    		<div class="jqt">近7天同城销售</div>
+				    		<div class="yishou">已售271件</div>
+				    	</div></a>
+				    	<div id="hidbar5" class="hidbar" onmouseover="playbar5(this)" onmouseout="hiddbar5(this)">
+				    	<ul>
+				    	<a href="#"><li>收藏</li></a>
+				    	<a href="#"><li>不喜欢</li></a>
+				    	<a href="#" class="luckydog"><li>我要自定义</li></a>
+				    	</ul>
+				    	</div>
+						
+						<a onmouseover="playbar6(this)" onmouseout="hiddbar6(this)">
+				    	<div class="xiaogejian">
+				    		<img src="images/xiaogejian6.jpg">
+				    		<h4>韩国东大门代购</h4>
+				    		<div class="jqt">近7天同城销售</div>
+				    		<div class="yishou">已售237件</div>
+				    	</div></a>
+				    	<div id="hidbar6" class="hidbar" onmouseover="playbar6(this)" onmouseout="hiddbar6(this)">
+				    	<ul>
+				    	<a href="#"><li>收藏</li></a>
+				    	<a href="#"><li>不喜欢</li></a>
+				    	<a href="#" class="luckydog"><li>我要自定义</li></a>
+				    	</ul>
+				    	</div>
+
+						<a onmouseover="playbar7(this)" onmouseout="hiddbar7(this)">
+				    	<div class="xiaogejian">
+				    		<img src="images/xiaogejian7.jpg">
+				    		<h4>包邮 纯手工 999</h4>
+				    		<div class="jqt">近7天同城销售</div>
+				    		<div class="yishou">已售178件</div>
+				    	</div></a>
+				    	<div id="hidbar7" class="hidbar" onmouseover="playbar7(this)" onmouseout="hiddbar7(this)">
+				    	<ul>
+				    	<a href="#"><li>收藏</li></a>
+				    	<a href="#"><li>不喜欢</li></a>
+				    	<a href="#" class="luckydog"><li>我要自定义</li></a>
+				    	</ul>
+				    	</div>
+
+						<a onmouseover="playbar8(this)" onmouseout="hiddbar8(this)">
+				    	<div class="xiaogejian">
+				    		<img src="images/xiaogejian8.jpg">
+				    		<h4>欧家正品代购</h4>
+				    		<div class="jqt">近7天同城销售</div>
+				    		<div class="yishou">已售400件</div>
+				    	</div></a>
+				    	<div id="hidbar8" class="hidbar" onmouseover="playbar8(this)" onmouseout="hiddbar8(this)">
+				    	<ul>
+				    	<a href="#"><li>收藏</li></a>
+				    	<a href="#"><li>不喜欢</li></a>
+				    	<a href="#" class="luckydog"><li>我要自定义</li></a>
+				    	</ul>
+				    	</div>
+
+						<a onmouseover="playbar9(this)" onmouseout="hiddbar9(this)">
+				    	<div class="xiaogejian">
+				    		<img src="images/xiaogejian9.jpg">
+				    		<h4>庭院花卉 纯野生</h4>
+				    		<div class="jqt">近7天同城销售</div>
+				    		<div class="yishou">已售21件</div>
+				    	</div></a>
+				    	<div id="hidbar9" class="hidbar" onmouseover="playbar9(this)" onmouseout="hiddbar9(this)">
+				    	<ul>
+				    	<a href="#"><li>收藏</li></a>
+				    	<a href="#"><li>不喜欢</li></a>
+				    	<a href="#" class="luckydog"><li>我要自定义</li></a>
+				    	</ul>
+				    	</div>
+						<div class="jiugongge">
+							<a href="#"><img src="images/x1y1.jpg" onmouseover="test1(this)" onmouseout="test2(this)">
+							<div class="bg" id="testa" onmouseover="test1(this)" onmouseout="test2(this)">
+								<p>在途 美国代购迪士尼Disney官网正品Frozen爱莎安娜冰雪奇缘书包</p>
+								<div>★1236</div>
+							</div></a>
+
+							<a href="#"><img src="images/x1y2.jpg" onmouseover="test3(this)" onmouseout="test4(this)">
+							<div class="bg" id="testb" onmouseover="test3(this)" onmouseout="test4(this)">
+								<p>猪猪侠五灵锁 百变联盟变形玩具机器人套装 铁拳虎救援队儿童玩具</p>
+								<div>★50</div>
+							</div></a>
+
+							<a href="#"><img src="images/x1y3.jpg" onmouseover="test5(this)" onmouseout="test6(this)">
+							<div class="bg" id="testc" onmouseover="test5(this)" onmouseout="test6(this)">
+								<p>HUBO -C6极高压超大功率发烧纯后级功放</p>
+								<div>★514</div>
+							</div></a>
+
+							<a href="#"><img src="images/x2y1.jpg" onmouseover="test7(this)" onmouseout="test8(this)">
+							<div class="bg" id="testd" onmouseover="test7(this)" onmouseout="test8(this)">
+								<p>梅子熟了2015夏季原创文艺范复古简约纯色长裙连衣裙森女系气质女</p>
+								<div>★12192</div>
+							</div></a>
+
+							<a href="#"><img src="images/x2y2.jpg" onmouseover="test9(this)" onmouseout="test10(this)">
+							<div class="bg" id="teste" onmouseover="test9(this)" onmouseout="test10(this)">
+								<p>2015新款夏季女士中长款针织衫女开衫镂空薄款大码披肩空调衫外套</p>
+								<div>★220</div>
+							</div></a>
+
+							<a href="#"><img src="images/x2y3.jpg" onmouseover="test11(this)" onmouseout="test12(this)">
+							<div class="bg" id="testf" onmouseover="test11(this)" onmouseout="test12(this)">
+								<p>正品新款现货美国UA安德玛under armour男士宽松款跑步t恤男短袖</p>
+								<div>★70</div>
+							</div></a>
+
+							<a href="#"><img src="images/x3y1.jpg" onmouseover="test13(this)" onmouseout="test14(this)">
+							<div class="bg" id="testg" onmouseover="test13(this)" onmouseout="test14(this)">
+								<p>HTC双卡4G现货</p>
+								<div>★26</div>
+							</div></a>
+
+							<a href="#"><img src="images/x3y2.jpg" onmouseover="test15(this)" onmouseout="test16(this)">
+							<div class="bg" id="testh" onmouseover="test15(this)" onmouseout="test16(this)">
+								<p>2015夏季韩版时尚套装欧洲站裙开叉短袖圆领女装新款潮包裙</p>
+								<div>★1574</div>
+							</div></a>
+
+							<a href="#"><img src="images/x3y3.jpg" onmouseover="test17(this)" onmouseout="test18(this)">
+							<div class="bg" id="testi" onmouseover="test17(this)" onmouseout="test18(this)">
+								<p>红芙蓉雪纺布料/DIY服装手工面料 透明印花碎花18元1米</p>
+								<div>★3366</div>
+							</div></a>
+						</div>
+						<div class="new"><a onmouseover="newen(this)" onmouseout="unnew(this)"><img src="images/shuaxin1.png" id="shuaxin" onmouseover="newen(this)" onmouseout="unnew(this)">换一批试试</a></div>
+				    </div>
+				    <div class="tirrs1">
+						<img src="images/xingxing.png">
+						<h3>发现·好店</h3>
+					</div>
+				    <div class="bigshop">
+				    <a href="#"><div class="shop">
+				    	<h4>铁马骑行</h4>
+				    	<div class="pingjia">
+				    		<span>东西不错</span>
+				    		<span>质量不错</span>
+				    		<span>大方</span>
+				    	</div>
+				    	<img src="images/pingjia1.jpg">
+				    	<img src="images/pingjia2.jpg">
+				    	<img src="images/pingjia3.jpg">
+				    </div></a>
+				    <a href="#"><div class="shop">
+				    	<h4>壹店艺品</h4>
+				    	<div class="pingjia">
+				    		<span>包装很好</span>
+				    		<span>物超所值</span>
+				    		<span>送了赠品</span>
+				    	</div>
+				    	<img src="images/pingjia4.jpg">
+				    	<img src="images/pingjia5.jpg">
+				    	<img src="images/pingjia6.jpg">
+				    </div></a>
+				    <a href="#"><div class="shop">
+				    	<h4>兵人八脚之店</h4>
+				    	<div class="pingjia">
+				    		<span>与描述相符</span>
+				    		<span>包装不错</span>
+				    		<span>正品</span>
+				    	</div>
+				    	<img src="images/pingjia7.jpg">
+				    	<img src="images/pingjia8.jpg">
+				    	<img src="images/pingjia9.jpg">
+				    </div></a>
+				    <a href="#"><div class="shop">
+				    	<h4>八月的清迈</h4>
+				    	<div class="pingjia">
+				    		<span>有赠品</span>
+				    		<span>漂亮</span>
+				    		<span>宫廷风</span>
+				    	</div>
+				    	<img src="images/pingjia10.jpg">
+				    	<img src="images/pingjia11.jpg">
+				    	<img src="images/pingjia12.jpg">
+				    </div></a>
+				    <div class="new1"><a onmouseover="newen1(this)" onmouseout="unnew1(this)" href="#"><img src="images/shuaxin1.png" id="shuaxin1" onmouseover="newen1(this)" onmouseout="unnew1(this)">换一批试试</a></div>
+				</div>
+			</div>
+				<img src="images/dagg.gif" id="dagg">
+			</div>
+		</div>
+	</div>
+	<div id="forth">
+		<a class="forth-bor"><div class="column">
+			<i class="item-1"></i>
+			<em class="g-u">来买范爷甄嬛同款正版</em>
+			<a href="#"><img src="images/niangniang.png" class="niangniang"></a>
+			<span class="bgban">
+				<em>娘娘同款手链热卖</em>
+				<span>懒理邓超出轨传闻</span>
+			</span>
+			<div class="nnxia">
+				<div class="nn-xia"><img src="images/deng.png">
+					<a href="#"><div>邓紫棋开店</div></a></div>
+				<div class="nn-xia"><img src="images/cai.jpg">
+					<a href="#"><div>免费小米机</div></a></div>
+			</div>
+			<p class="panel">
+				<a href="#">潮流夏装</a>
+				<a href="#">端午节特惠场</a>
+				<a href="#">星同款</a>
+			</p>
+			<p class="article">
+				<span>[ <a href="#">0元星福利</a> ]</span>
+				<a href="#" class="renqi">人气明星店</a>
+			</p>
+		</div></a>
+		
+
+		<a class="forth-bor"><div class="column">
+			<i class="item-2"></i>
+			<em class="g-u">足不出户 淘遍全球</em>
+			<a href="#"><img src="images/jm.jpg" class="niangniang"></a>
+			<span class="bgban">
+				<em>街头美女潮搭秀</em>
+				<span>海外最in新款3折起</span>
+			</span>
+			<div class="nnxia">
+				<div class="nn-xia"><img src="images/beiling.jpg">
+					<a href="#"><div>贝玲妃香体</div></a></div>
+				<div class="nn-xia"><img src="images/xigua.jpg">
+					<a href="#"><div>西瓜帐篷</div></a></div>
+			</div>
+			<p class="panel">
+				<a href="#"><img src="images/f1.jpg"></a>
+				<a href="#"><img src="images/f2.jpg"></a>
+				<a href="#"><img src="images/f3.jpg"></a>
+				<a href="#"><img src="images/f4.jpg"></a>
+				<a href="#"><img src="images/f5.jpg"></a>
+			</p>
+			<p class="article">
+				<span>[ <a href="#">全球特卖</a> ]</span>
+				<a href="#" class="renqi">不移民体验美式生活</a>
+			</p>
+		</div></a>
+		<a class="forth-bor"><div class="column">
+			<i class="item-3"></i>
+			<em class="g-u">孤品捡漏 佩戴与收藏</em>
+			<a href="#"><img src="images/zichan.png" class="niangniang"></a>
+			<span class="bgban">
+				<em>句容市台湾小镇房产开拍</em>
+				<span>零佣金司法出置资产</span>
+			</span>
+			<div class="nnxia">
+				<div class="nn-xia"><img src="images/haoche.png">
+					<a href="#"><div>好车捡漏</div></a></div>
+				<div class="nn-xia"><img src="images/haofang.png">
+					<a href="#"><div>特价好房</div></a></div>
+			</div>
+			<p class="panel">
+				<a href="#">稀世佳酿</a>
+				<a href="#">琥珀蜜蜡</a>
+				<a href="#">当代油画</a>
+			</p>
+			<p class="article">
+				<span>[ <a href="#">牛市</a> ]</span>
+				<a href="#" class="renqi">投股票不如投资宝石</a>
+			</p>
+		</div></a>
+		<a class="forth-bor"><div class="column">
+			<i class="item-4"></i>
+			<em class="g-u">30天最低价 包邮</em>
+			<a href="#"><img src="images/xinggan.jpeg" class="niangniang"></a>
+			<span class="bgban">
+				<em class="nvshen">性感女神装备9.9包邮</em>
+				<span>舒适内衣</span>
+			</span>
+			<div class="nnxia">
+				<div class="nn-xia"><img src="images/nz.png">
+					<a href="#"><div>女装9.9元</div></a></div>
+				<div class="nn-xia"><img src="images/jujia.jpg">
+					<a href="#"><div>居家百货</div></a></div>
+			</div>
+			<p class="panel">
+				<a href="#">母婴精选</a>
+				<a href="#">美食特产</a>
+				<a href="#">男女潮鞋</a>
+			</p>
+			<p class="article">
+				<span>[ <a href="#">精选内衣</a> ]</span>
+				<a href="#" class="renqi">60天最低价</a>
+			</p>
+		</div></a>
+		<a class="forth-bor"><div class="column">
+			<i class="item-5"></i>
+			<em class="g-u">美人美图美货</em>
+			<a href="#"><img src="images/dapai.jpg" class="niangniang"></a>
+			<span class="bgban">
+				<em>大牌质感纯色T恤</em>
+				<span>时尚大妞搭配神器</span>
+			</span>
+			<div class="nnxia">
+				<div class="nn-xia"><img src="images/200.png">
+					<a href="#"><div>200款新品</div></a></div>
+				<div class="nn-xia"><img src="images/dujia.png">
+					<a href="#"><div>度假美搭</div></a></div>
+			</div>
+			<p class="panel">
+				<a href="#">印花小裙</a>
+				<a href="#">露腰美搭</a>
+				<a href="#">清新look</a>
+			</p>
+			<p class="article">
+				<span>[ <a href="#">爆款</a> ]</span>
+				<a href="#" class="renqi">夏日最显格调的穿搭！</a>
+			</p>
+		</div></a>
+		<a class="forth-bor"><div class="column">
+			<i class="item-6"></i>
+			<em class="g-u">世界触手可行</em>
+			<a href="#"><img src="images/99.jpg" class="niangniang"></a>
+			<span class="bgban">
+				<em>99元暑假亲子游</em>
+				<span>考试后给孩子奖励</span>
+			</span>
+			<div class="hot">
+				<i class="hotIcon"></i>
+				<div class="tt">
+				<p>五星酒店</p>
+				<span>仅388元</span>
+				</div>
+				<img src="images/wuxin.webp">
+			</div>
+			<p class="panel">
+				<a href="#">乐享海岛</a>
+				<a href="#">避暑去啊</a>
+				<a href="#">游园戏梦</a>
+			</p>
+			<p class="article">
+				<span>[ <a href="#">甩尾单</a> ]</span>
+				<a href="#" class="renqi">当地玩乐正当时，走</a>
+			</p>
+		</div></a>
+	</div>
+	<a class="plugBar">
+		<i class="ailvyou"></i>
+		<input type="button" value="更多" class="more" onmouseover="changeit(this)" onmouseout="recoverit(this)">
+	</a>
+	<div class="guang">
+	<div class="guang-left">
+		<ul>
+			<li><img src="images/li-1.webp">
+			<a href="#"><p>清新碎花连衣裙</p></a></li>
+			<li><img src="images/li-2.webp">
+			<a href="#"><p>小尖头包头鞋</p></a></li>
+			<li><img src="images/li-3.webp">
+			<a href="#"><p>吃芒果简单了</p></a></li>
+			<li><img src="images/li-4.webp">
+			<a href="#"><p>海边度假小心机</p></a></li>
+			<li><img src="images/li-5.webp">
+			<a href="#"><p>这样穿，转角遇见男神！</p></a></li>
+		</ul>
+		</div>
+		<div class="guang-center">
+		<span class="i-pre"><</span>
+			<img src="images/li-6.webp">
+			<a href="#"><p>闪耀！蛇形绕脚凉鞋</p></a>
+			<span class="i-aft">></span>
+		</div>
+		<div class="guang-right">
+			<img src="images/li-7.webp">
+			<img src="images/li-8.webp">
+			<ul>
+			<li><a href="#"><span>夏装</span><i class="luckydog">夏日美腿秀出来</i></a></li>
+			<li><a href="#"><span>凉鞋</span>迷人绑带凉鞋</a></li>
+			<li><a href="#"><span>美容</span>手残星人搞定盘发</a></li>
+			<li><a href="#"><span>搭配</span>化身古装剧女主</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="six-box">
+		<div class="box-one">
+			<div class="box-header">
+				<h3>挑食</h3>
+			</div>
+			<img src="images/tiaohsi.webp" class="tiaoshi">
+			<span><a href="#">吃，就该这么挑！</a></span>
+			<div class="box-bottom">
+				<div><img src="images/ningmeng.webp"><p><a href="#">海南青柠檬</a></p></div>
+				<div><img src="images/putao.webp"><p><a href="#">夏黑无籽葡萄</a></p></div>
+			</div>		
+			</div>
+		<div class="box-two">
+			<div class="box-header">
+				<h3>生活汇</h3>
+			</div>
+			<img src="images/tianpin.webp" class="tiaoshi">
+			<span><a href="#">夏日最爱饮品专享</a></span>
+			<div class="box-bottom">
+				<div><img src="images/bingshuang.webp"><p><a href="#">冰爽一夏</a></p></div>
+				<div><img src="images/xiezhen.webp"><p><a href="#">个性写真</a></p></div>
+			</div>		
+		</div>
+		<div class="box-three">
+			<div class="box-header">
+				<h3>房产</h3>
+			</div>
+			<img src="images/fangchan.webp" class="tiaoshi">
+			<span><a href="#">买房租房特别优惠</a></span>
+			<div class="box-bottom">
+				<div><img src="images/lingfangzu.webp"><p><a href="#">速领租房券</a></p></div>
+				<div><img src="images/touzi.webp"><p><a href="#">旅游地产</a></p></div>
+			</div>		
+		</div>
+		<div class="box-four">
+		<div class="box-header">
+				<h3>学习</h3>
+			</div>
+			<div class="box-bottom">
+				<div><img src="images/xueyingyu.webp"><p><a href="#">学英语来这里</a></p></div>
+				<div><img src="images/bucizhi.webp"><p><a href="#">不辞职看世界</a></p></div>
+			</div>		
+			<div class="box-bottom">
+				<div><img src="images/rangnianxin.webp"><p><a href="#">让年薪过百万</a></p></div>
+				<div><img src="images/zuichao.webp"><p><a href="#">最潮化妆品</a></p></div>
+			</div>		
+		</div>
+		<div class="box-five">
+			<div class="box-header">
+				<h3>闲鱼</h3>
+				<div class="box5-top">
+				<img src="images/-1.webp">
+				<img src="images/-2.webp">
+				<img src="images/-3.webp">
+				<img src="images/-4.webp">
+				<img src="images/-5.webp">
+				<img src="images/-6.webp">
+			</div>
+			<div class="box5-bottom">
+				<img src="images/-7.webp">
+				<a href="#">#数码控#已预订已预订。我家还有</a>
+				<p class="luckydog">150</p>
+			</div>
+			</div>
+		</div>
+		<div class="box-six">
+			<div class="box-header">
+				<h3>星店</h3>
+			</div>
+			<img src="images/fanbingbing.webp" class="tiaoshi">
+			<span><a href="#">范冰冰正版夏装</a></span>
+			<div class="box-bottom">
+				<div><img src="images/chugui.webp"><p><a href="#">某明星出柜</a></p></div>
+				<div><img src="images/xiaoshidai.webp"><p><a href="#">小时代4同款</a></p></div>
+			</div>		
+		</div>
+	</div>
+	<div class="add">
+	<div class="ad1"><img src="images/lianzi.jpg"></div>
+	<div class="ad1"><img src="images/yashua.jpg"></div>
+	<div class="ad1"><img src="images/yudi.jpg"></div>
+	</div>
+	<script type="text/javascript" src="obj.js"></script>
+</body>
+</html>
