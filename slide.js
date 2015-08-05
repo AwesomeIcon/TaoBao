@@ -91,9 +91,7 @@ function startMove(obj,attr,target){
 			var offset1 = -520*(myIndex - index);
 			index = myIndex;
 			showButton();
-			if(flag=="true"){
 			animated(offset1);
-		}
 		}
 	}
 
