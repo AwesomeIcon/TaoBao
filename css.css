@@ -2,6 +2,7 @@ body{
 	margin: 0 auto;
 	font-family:Arial,'Times New Roman','Microsoft YaHei',SimHei;
 	font:12px/0.75em Arial,'Times New Roman','Microsoft YaHei',SimHei; 
+	min-width:1349px;
 }
 
 *{
