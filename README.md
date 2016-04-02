@@ -1,5 +1,10 @@
 # 淘宝首页
 
+## Live Demo
+[http://awesomeicon.github.io/TaoBao/](http://awesomeicon.github.io/TaoBao/)
+
+* 因为图片格式的原因，请在chrome浏览器下打开
+
 ## 环境准备
 
 * Sublime text
