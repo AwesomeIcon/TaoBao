@@ -1,9 +1,9 @@
 # 淘宝首页
 
 ## Live Demo
-[http://imtypist.github.io/TaoBao/](http://imtypist.github.io/TaoBao/)
+[https://imtypist.github.io/TaoBao/](https://imtypist.github.io/TaoBao/)
 
-* 因为图片格式的原因，请在chrome浏览器下打开
+* 因为webp图片格式的原因，请在chrome浏览器下打开
 
 ## 环境准备
 
@@ -15,7 +15,7 @@
 * 先把代码git到本地
 
 ```bash
-git clone https://github.com/AwesomeIcon/TaoBao.git
+git clone https://github.com/imtypist/TaoBao.git
 ```
 * 修改远程仓库地址
 
